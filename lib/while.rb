@@ -3,8 +3,10 @@ def using_while
   while levitation_force < 10
 
   #your code here
-  puts "#{phrase}" +1
+  puts "#{phrase}" 
+  levitation_force +=1
 end
+end 
 
 # counter = 0
 # while counter < 20
